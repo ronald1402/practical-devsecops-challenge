@@ -8,7 +8,7 @@ var editorLib = {
   init() {
     codeEditor.setTheme("ace/theme/cloud9_night_low_color");
     codeEditor.session.setMode("ace/mode/golang");
-    codeEditor.insert("//Write your code here")
+    codeEditor.insert("//Write your Golang Code")
   },
 };
 
