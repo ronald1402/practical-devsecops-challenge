@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin: -10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.column {
+    flex: 33.33%;
+}
+.column:first-child header {
+    background-color: ghostwhite;
+    font-weight: 700;
+    padding: 10px;
+}
+.column:first-child h6 {
+    color: grey;
+    padding: 0 10px;
+}
+.column:first-child p {
+    padding: 0 10px;
+}
+.column:first-child h2 {
+    padding: 0 10px;
+}
+.editor__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.editor__header {
+    padding: 10px;
+}
+.editor__body {
+    flex: 1;
+}
+.editor__footer {
+    background-color: black;
+}
+.editor__run {
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: cornflowerblue;
+}
+.editor__reset {
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: inherit;
+}
+.editor__console {
+    background-color: white;
+}
+  

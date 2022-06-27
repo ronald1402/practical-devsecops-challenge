@@ -1,0 +1,9 @@
+{
+    "appName": "JDoodle",
+    "port": "8080",
+    "jDoodle": {
+        "ClientId": "10a30008d1d3354378aefe1344419df6",
+        "ClientSecret": "765f4f8233bca3d057f2241e39a3e2e653d92326f4cab5cbc415b458e308e66e",
+        "Host": "https://api.jdoodle.com"
+    }
+}
